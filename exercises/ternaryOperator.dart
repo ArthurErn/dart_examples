@@ -38,7 +38,10 @@ void main() {
   // assert keyword
   // if everything is fine, we'll see no output
   // if our assertion fails (if the condition is false) it'll throw an AssertionError
+
   for(int i = 0; i< 10000; i++){
     assert(isNumberEven(i) == isNumberEvenTernary(i));
   }
+  // to launch the file, enable the asserts
+  // dart --enable-asserts FILENAME.dart
 }
